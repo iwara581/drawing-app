@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Canvas</title>
+	</head>
+	<style>
+		#controls {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			height: 50px;
+			border-bottom: 1px solid #000;
+		}
+
+		#line-width {
+			text-align: center;
+			width: 50px;
+		}
+
+		#canvas {
+			border: 1px solid #000;
+		}
+	</style>
+	<body>
+		<div id="controls">
+			<input type="color" id="color" />
+			<input type="number" value="10" id="line-width" />
+			<select id="line-cap">
+				<option value="round">R</option>
+				<option value="butt">B</option>
+				<option value="square">S</option>
+			</select>
+		</div>
+		<canvas id="canvas"></canvas>
+
+		<script src="main.js"></script>
+	</body>
+</html>
