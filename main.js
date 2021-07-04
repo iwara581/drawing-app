@@ -11,9 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	let painting = false
 
-	let cap = ''
+	let cap
 
-	let lineColor = ''
+	let lineColor
 
 	let num
 
